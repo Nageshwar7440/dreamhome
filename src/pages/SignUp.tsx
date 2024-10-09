@@ -146,6 +146,11 @@ const SignUp: React.FC = () => {
                     <p className="bottom-instruction">
                         Already have an account? <a href="/Login">Login here</a>
                     </p>
+                    </div>
+                    </div>
+                    </Layout>
+)
+}
 
-
+export default SignUp;
 

@@ -24,7 +24,7 @@ const Services = () => {
         <>
             <Layout>
                 <div className="Property_layout">
-                    <div><img src={'/' + data?.image} alt="Property image" className="top-image "></img></div>
+                    <div><img src={'/' + data} alt="Property image" className="top-image "></img></div>
 
                     {/* 
                     <i className="bi bi-geo-alt"> <span> Belmont Gardens, Chicago</span></i> */}
@@ -33,7 +33,7 @@ const Services = () => {
                         <div className="row">
                             <div className="col-3">
                                 <div className="card" style={{ width: "18rem" }}>
-                                    <img src={'/' + data?.image1} className="card-img-top" alt="Card image"></img>
+                                    <img src={'/' + data} className="card-img-top" alt="Card image"></img>
                                     <div className="card-body">
                                         <h5 className="card-title">Living Room</h5>
                                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -44,7 +44,7 @@ const Services = () => {
 
                             <div className="col-3">
                                 <div className="card" style={{ width: "18rem" }}>
-                                    <img src={'/' + data?.image2} className="card-img-top" alt="Card image"></img>
+                                    <img src={'/' + data} className="card-img-top" alt="Card image"></img>
                                     <div className="card-body">
                                         <h5 className="card-title">Kitchen</h5>
                                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -56,7 +56,7 @@ const Services = () => {
 
                             <div className="col-3">
                                 <div className="card" style={{ width: "18rem" }}>
-                                    <img src={'/' + data?.image3} className="card-img-top" alt="Card image"></img>
+                                    <img src={'/' + data} className="card-img-top" alt="Card image"></img>
                                     <div className="card-body">
                                         <h5 className="card-title">WashRoom</h5>
                                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -67,7 +67,7 @@ const Services = () => {
 
                             <div className="col-3">
                                 <div className="card" style={{ width: "18rem" }}>
-                                    <img src={'/' + data?.image4} className="card-img-top" alt="Card image"></img>
+                                    <img src={'/' + data} className="card-img-top" alt="Card image"></img>
                                     <div className="card-body">
                                         <h5 className="card-title">Bedroom</h5>
                                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -88,22 +88,22 @@ const Services = () => {
                         <div className="row">
                             <div className="col-4">
 
-                                <p>Property ID:      {data?.id}</p>
+                                {/* <p>Property ID:      {data?.id}</p>
                                 <p>Home Area:        {data?.size}sqft</p>
                                 <p>Rooms:            {data?.Rooms}</p>
                                 <p>Baths:            {data?.Baths}</p>
-                                <p>Year built:       {data?.Year_built}</p>
+                                <p>Year built:       {data?.Year_built}</p> */}
 
                             </div>
 
 
                             <div className="col-8">
 
-                                <p>Lot Area:             {data?.id}</p>
+                                {/* <p>Lot Area:             {data?.id}</p>
                                 <p>Lot dimensions:        {data?.size}sqft</p>
                                 <p>Beds:                {data?.Beds}</p>
                                 <p>Price:                {data?.price}</p>
-                                <p>Property Status:      {data?.Property_Status}</p>
+                                <p>Property Status:      {data?.Property_Status}</p> */}
 
                             </div>
                         </div>
